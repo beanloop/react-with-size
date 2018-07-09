@@ -1,0 +1,30 @@
+{
+  "name": "react-with-size",
+  "version": "0.1.1",
+  "description": "React HOC for monitor the size of a component",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tscomp build",
+    "watch": "tscomp watch",
+    "test": "tscomp test",
+    "prepublish": "npm run build"
+  },
+  "repository": "https://github.com/beanloop/react-with-size.git",
+  "author": "Beanloop AB",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.4.6",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "tscomp": "^0.9.1",
+    "tslint": "^4.0.2",
+    "tslint-config-beanloop": "^0.2.0"
+  },
+  "dependencies": {
+    "lodash.throttle": "^4.1.1",
+    "recompose": "^0.27.1"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  }
+}
