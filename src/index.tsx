@@ -52,6 +52,7 @@ export const withSize = () => WrappedComponent =>
           {...this.props}
           sizeRef={this.onRef}
           size={this.state.size}
+          onResize={this.onResize}
         />
       )
     }
