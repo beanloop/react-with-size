@@ -1,6 +1,6 @@
 {
   "name": "react-with-size",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "React HOC for monitor the size of a component",
   "main": "dist/src/index.js",
   "scripts": {
